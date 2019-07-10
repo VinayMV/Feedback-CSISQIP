@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS ISQIP FEEDBACK FORM</title>
+    <style>
+        .side-bar {
+            margin-bottom: 0px;
+            height: 100%;
+            text-decoration: none;
+            background-color: grey;
+            margin-left: 0%
+        }
+        
+        .side-bar .side-bar-element {
+            display: block;
+            padding: 12px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        
+        .side-bar .side-bar-element:hover {
+            background-color: darkgray;
+        }
+        
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        .main-container {
+            width: 100%;
+        }
+        
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 0px;
+        }
+        
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 2px;
+        }
+        
+        .row {
+            margin-left: 100px
+        }
+        
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+            margin-left: 75%
+        }
+        
+        @media screen and (max-width: 600px) {
+            .col-25,
+            .col-75,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+        
+        body,
+        html {
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .bg-img {
+            background-image: url("22.jpeg");
+            min-height: 600px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .container {
+            position: absolute;
+            left: 450px;
+            margin: 20px;
+            max-width: 300px;
+            padding: 16px;
+            margin-top: 200px;
+            background-color: white
+        }
+        
+        .container1 {
+            position: absolute;
+            left: 450px;
+            margin: 0px;
+            max-width: 300px;
+            padding: 16px;
+            margin-top: 100px;
+            background-color: white
+        }
+        
+        .top-left {
+            position: fixed;
+            top: 8px;
+            left: 30px;
+        }
+        
+        .top-left1 {
+            position: fixed;
+            margin-top: 100px;
+            top: 8px;
+            left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-img">
+        <form action="" class="container">
+            <h2>How was the teaching?</h2>
+            <div class="row">
+                <div>
+                    <form>
+                        <input type="radio" name="Teaching " value="5 ">5<br>
+                        <input type="radio" name="Teaching " value="4 ">4<br>
+                        <input type="radio" name="Teaching " value="3 ">3<br>
+                        <input type="radio" name="Teaching " value="2 ">2<br>
+                        <input type="radio" name="Teaching " value="1 ">1<br>
+                    </form>
+                    </select>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+
+            </div>
+
+            <div class="top-left ">
+                <h1>CS ISQIP FEEDBACK FORM</h1>
+            </div>
+            <div class="top-left1 ">
+                <div class="side-bar ">
+                    <div class="side-bar-element " data-page="Teaching">
+                        <a href="login.html">Teaching</a>
+                    </div>
+                    <div class="side-bar-element " data-page="Labs">
+                        <a href="login1.html">Labs</a>
+                    </div>
+                    <div class="side-bar-element " data-page="Service">
+                        <a href="login2.html">Service</a>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+</body>
+
+
+</html>
